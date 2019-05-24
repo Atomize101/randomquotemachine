@@ -4,8 +4,12 @@ import QuoteList from './QuoteList';
 
 const App = () => {
     return (
-        <div>
-            <QuoteList  />    
+        <div className="ui container grid">
+            <div className="ui rown">
+                <div className="column eight wide">
+                    <QuoteList  />    
+                </div>
+            </div>
         </div>
     );
 };
